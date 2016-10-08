@@ -14,10 +14,21 @@
 
 <body>
 
+<!--Introduction header et nav, contenu fixe pour toutes pages-->
+<?php
+    require_once("header.html");
+?>
 
-	<!--Introduction du jquery-->
-	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>-->
-	<!--Introduction du script JS-->
-	<script src="./js/main.js"></script>
+	<main>
+		<h1>Actualités de l'association</h1>
+	</main>
+
+
+
+<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+<?php
+    require_once("footer.html");
+?>
+
 </body>
 </html>
