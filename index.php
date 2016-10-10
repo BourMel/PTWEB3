@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<!--Est-ce qu'on prend les articles d'une base de données ?-->
+<!--Est-ce qu'on génère les articles à partir d'une base de données ?
+Ca voudrait entre autres dire qu'on pourrait faire un tri des articles
+fonctionnel (accès aux archives). Mais pas sûr qu'on ait le temps-->
 
 <head>
     <title>Accueil | Vue du Coeur</title>
@@ -31,7 +33,7 @@ le header via header.html-->
 		</nav>
 		
 		<h1>vueducoeur.org</h1>
-		<img src="template/images/logo.png">
+		<img src="template/images/logo.png" alt="">
 		
 		<h3>
 			L'essentiel est invisible pour les yeux
@@ -52,21 +54,21 @@ le header via header.html-->
 			
 			<article>
 				<h4>Blog</h4>
-				<img src="">
+				<img src="" alt="">
 				<span>28 SEPT, 2016</span>
 				<h3>Kombissiri au cinéma Le VOX</h3>
 			</article>
 
 			<article>
 				<h4>Blog</h4>
-				<img src="">
+				<img src="" alt="">
 				<span>28 SEPT, 2016</span>
 				<h3>Kombissiri au cinéma Le VOX</h3>
 			</article>
 			
 			<article>
 				<h4>Blog</h4>
-				<img src="">
+				<img src="" alt="">
 				<span>28 SEPT, 2016</span>
 				<h3>Kombissiri au cinéma Le VOX</h3>
 			</article>
@@ -76,6 +78,7 @@ le header via header.html-->
 		
 		<section class="us">
 			<h2>A propos de Vue du Coeur</h2>
+			<img src="" alt=""> <!--Dans html ou css ?-->
 			
 			<h3>Il était une fois un petit bonhomme…</h3>
 			<p>Nathan est né en 2007 en créant la surprise : il ne verrait jamais car ses nerfs optiques étaient trop fins pour laisser passer une quelconque information à son cerveau.</p>
