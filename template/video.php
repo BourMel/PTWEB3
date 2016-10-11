@@ -17,18 +17,36 @@
 <!--Introduction header et nav, contenu fixe pour toutes pages-->
 <?php
     require_once("header.html");
-?>
+    
+    // Récupération des variables
+    $content = $_GET['content'] ? $_GET['content'] : null ;
 
-	<main>
-		<h1>Vidéo</h1>
-	</main>
+    if ($content = "none") {
+        print ("<main>
+                    <h1>Vidéo</h1>
+                    <a href='video.php?content=association'>Association</a>
+                    <a href='video.php?content=nathan'>Nathan</a>
+                </main>");
+        
+    } elseif ($content = "association") {
+        print ("<main>
+                    <a href='video.php?content=nathan'>Nathan</a>
+                    <h1>Vidéos de l'Association</h1>
+                </main>");
+        
+    } elseif ($content = "nathan") {
+        print ("<main>
+                    <a href='video.php?content=association'>Association</a>
+                    <h1>Vidéos de Nathan</h1>
+                </main>");
+    }
+    
+    print("$content");
 
+/* Introduction footer, contenu fixe pour toutes pages JQUERY inclus */
 
-<!--Introduction footer, contenu fixe pour toutes pages JQUERY inclus.-->
-<?php
     require_once("footer.html");
 ?>
-
 
 </body>
 </html>
