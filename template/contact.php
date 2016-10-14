@@ -13,21 +13,22 @@
 </head>
 
 <body>
+	<div class="wrapper">
+		<!--Introduction header et nav, contenu fixe pour toutes pages-->
+		<?php
+			require_once("header.html");
+		?>
 
-<!--Introduction header et nav, contenu fixe pour toutes pages-->
-<?php
-    require_once("header.html");
-?>
-
-	<main>
-		<h1>Contact</h1>
-	</main>
+			<main>
+				<h1>Contact</h1>
+			</main>
 
 
-<!--Introduction footer, contenu fixe pour toutes pages JQUERY inclus.-->
-<?php
-    require_once("footer.html");
-?>
+		<!--Introduction footer, contenu fixe pour toutes pages JQUERY inclus.-->
+		<?php
+			require_once("footer.html");
+		?>
+	</div>
 
 </body>
 </html>

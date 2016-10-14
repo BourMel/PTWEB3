@@ -26,9 +26,9 @@ le header via header.html-->
 				<li><a href="template/video.php?content=none">Vidéos</a></li>
 				<li><a href="template/contact.php">Contact</a></li>
 			</ul>
-		    <img src="template/images/logo.png" alt="">		
 		</nav>
 		
+		<img src="template/images/logo.png" alt="">		
 		<h1>Vue du Cœur</h1>
 		<p>Nous sommes une association qui vient en aide aux enfants non-voyants.</p>
 	</header>
