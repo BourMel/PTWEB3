@@ -8,6 +8,7 @@
     <!--Introduction des feuilles de style-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/grille.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/video.css">
 </head>
@@ -21,30 +22,31 @@
 			// Récupération des variables
 			$content = $_GET['content'] ? $_GET['content'] : null ;
 
-			if ($content = "none") {
+			/*contenu standard*/
+			if ($content == "none") {
 				print ("<main>
 							<h1>Vidéo</h1>
 							<a href='video.php?content=association'>Association</a>
 							<a href='video.php?content=nathan'>Nathan</a>
 						</main>");
 				
-			} elseif ($content = "association") {
+			/*vidéos de l'association*/
+			} elseif ($content == "association") {
 				print ("<main>
 							<a href='video.php?content=nathan'>Nathan</a>
 							<h1>Vidéos de l'Association</h1>
 						</main>");
 				
-			} elseif ($content = "nathan") {
+			/*vidéos de nathan*/
+			} elseif ($content == "nathan") {
 				print ("<main>
 							<a href='video.php?content=association'>Association</a>
 							<h1>Vidéos de Nathan</h1>
 						</main>");
 			}
 			
-			print("$content");
-
+			
 		/* Introduction footer, contenu fixe pour toutes pages JQUERY inclus */
-
 			require_once("footer.html");
 		?>
 	</div>

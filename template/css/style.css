@@ -19,45 +19,96 @@ html {
 	margin:auto;
 }
 
+hr {
+	display:none;
+}
+
+/*sélections*/
+::selection{
+	background-color:#fab38b;
+	color:#2b2b2a;
+}
+
+::-moz-selection {
+	background-color:#fab38b;
+	color:#2b2b2a;
+}
+
+/*tous les liens*/
+a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+a:hover {
+	color:#2b2b2a;
+}
+
+main a {
+	color:#2b2b2a;
+}
+
+main a:hover {
+	color:#fab38b;
+}
+
+/*liens externes : qui commencent par htt...*/
+a[href^="htt"] li::after { 
+	background-image:url('../images/link.png');
+	background-size:13px;
+	display:inline-block;
+	height:13px;
+	width:13px;
+	margin-left:5px;
+    content:'';
+}
+
 /*HEADER
 menu principal*/
 
-#mainMenu {
+/*couleur du menu*/
+.wrapper::before {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
 	background-color:#fe7e36;
-	padding:1.5em;
-	/*seul un élément positionné peut avoir un z-index*/
+	height:4em;
+	width:100%;
+	/*passe derrière pour que la courbe blanche fonctionne*/
+	z-index:-20;
+}
+
+#mainMenu {
 	position:relative;
-	/*permet de faire passer le menu en dessous de la courbe*/
-	z-index:-10; /*BLOQUE LES LIENS DU MENU*/
+	/*passe devant pour des liens fonctionnels*/
+	z-index:10;
+	padding:1.5em;
+	color:#ffffff;
 }
 
 .mainMenu__list {
-
+	
 }
 
 .mainMenu__item {
 	display:inline-block;
 	margin:0 1em 0 1em;
-}
-
-.mainMenu__item a {
-	text-decoration:none;
 	text-transform:uppercase;
 }
 
 /*création de la courbe du menu*/
 .mainMenu__courbe {
 	position:absolute;
-	/*taille du menu : 3em+texte*/
+	/*taille du menu : 4em*/
 	top:1.5em;
 	right:4em;
 	border-radius:50%;
 	height:300px;
 	width:700px;
 	background-color:#ffffff;
-	/*faire passer devant le menu, derrière le contenu*/
-	z-index:-5;
-
+	/*passe devant le fond coloré, derrière le menu et le contenu*/
+	z-index:0;
 }
 
 .mainMenu__logo {
@@ -66,8 +117,8 @@ menu principal*/
 	top:6em;
 	right:2em;
 	/*à modifier*/
-	height:50px;
-	width:100px;
+	height:70px;
+	width:150px;
 }
 
 .mainMenu__name {
@@ -81,11 +132,109 @@ menu principal*/
 identité du site*/
 
 .header__citation {
-	margin:2em 0 1em 0;
+	position:relative;
+	z-index:100;
+	margin:1.5em 0 1em 0;
+	color:#fe7e36;
+	font-size:1.7em;
 }
 
 .header__citation span {
+	position:relative;
+	z-index:100;
 	/*passage à la ligne*/
 	display:block;
+	/*moitié moins que la citation*/
+	font-size:0.5em;
 }
 
+/*MAIN*/
+
+main {
+	position:relative;
+	/*le contenu passe devant tout le reste*/
+	z-index:100;
+}
+
+/*FOOTER*/
+
+footer {
+	/*effet secondaire : annule le wrapper*/
+	position:absolute;
+	bottom:1.5em;
+	/*caractéristiques du wrapper*/
+	width:75%;
+	margin:auto;
+}
+
+/*couleur du footer*/
+.wrapper::after {
+	content:'';
+	position:absolute;
+	bottom:0;
+	left:0;
+	background-color:#fe7e36;
+	height:11em;
+	width:100vw;
+	/*passe derrière pour que la courbe blanche fonctionne*/
+	z-index:-20;
+}
+
+.footer__courbe {
+	position:absolute;
+	/*height du footer 10em*/
+	bottom:7.5em;
+	left:4em;
+	border-radius:50%;
+	height:300px;
+	width:700px;
+	background-color:#ffffff;
+	/*passe devant le fond coloré, derrière le contenu*/
+	z-index:0;
+}
+
+/*soit tout le contenu du footer*/
+footer section {
+	position:relative;
+	z-index:10;
+	color:#ffffff;
+	line-height:1.2;
+}
+
+.footer__title {
+	text-transform:uppercase;
+	padding-bottom:0.5em;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+/*partie formulaire, à améliorer*/
+
+/*impact le li*/
+.newsletter {
+	margin-top:0.7em;
+}
+
+.newsletter form {
+	margin-top:0.3em;
+}
+
+.footer__input {
+	border-radius:5px;
+	border:2px solid #c3c6c1;
+}
+
+.footer__button {
+	background-color:transparent;
+	border:1px solid #ffffff;
+	padding:2px;
+	text-transform:uppercase;
+	color:#ffffff;
+}
+
+.footer__button:hover {
+	border:2px solid #ffffff;
+	cursor:pointer;
+}

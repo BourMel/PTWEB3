@@ -8,6 +8,7 @@
     <!--Introduction des feuilles de style-->
 	<link rel="stylesheet" href="template/css/reset.css">
     <link rel="stylesheet" href="template/css/font-awesome.min.css">
+	<link rel="stylesheet" href="template/css/grille.css">
     <link rel="stylesheet" href="template/css/style.css">
     <link rel="stylesheet" href="template/css/index.css">
 </head>
@@ -19,7 +20,7 @@ le header via header.html-->
 
 	<header>
 		<nav>
-			<ul>
+			<ul class="indexMenu">
 				<li><a href="template/accueil.php">Accueil</a></li>
 				<li><a href="template/actu.php">Actualités de l'association</a></li>
 				<li><a href="template/blog.php">Blog de Nathan</a></li>
