@@ -19,19 +19,23 @@
 le header via header.html-->
 
 	<header>
-		<nav>
-			<ul class="indexMenu">
+		<nav class="indexMenu">
+			<ul>
 				<li><a href="template/accueil.php">Accueil</a></li>
 				<li><a href="template/actu.php">Actualités de l'association</a></li>
 				<li><a href="template/blog.php">Blog de Nathan</a></li>
 				<li><a href="template/video.php?content=none">Vidéos</a></li>
 				<li><a href="template/contact.php">Contact</a></li>
 			</ul>
-		</nav>
+			
+			<img class="indexLogo" src="template/images/logo.png" alt="">	
+		</nav>	
 		
-		<img src="template/images/logo.png" alt="">		
-		<h1>Vue du Cœur</h1>
-		<p>Nous sommes une association qui vient en aide aux enfants non-voyants.</p>
+		<main class="about">
+			<h1>Vue du Cœur</h1>
+			<p class="explain">Nous sommes une association qui vient en aide aux enfants non-voyants.</p>
+			<p class="enterSite"><a href="./template/accueil.php">Accès au site</a></p>
+		</main>
 	</header>
 	
 </body>
