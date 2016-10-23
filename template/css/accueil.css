@@ -1,0 +1,20 @@
+h1, section {margin-bottom: 1em;}
+.us h2 {margin: 2em 0 0.5em 0;}
+
+article .background {height: 12em;
+  background: url('../images/random.jpg') no-repeat;
+  color: #fff;
+  margin-bottom: 0.5em;
+  /*border: 2px solid #fe7e36;*/
+}
+
+h4 {text-transform: uppercase;
+  text-align: center;
+  line-height: 1.8;
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+img[alt="blog"] {display: none; /* Ne s'affiche pas en temps normal, mais besoin pour l'accessibilité */
+  width: 250px;
+}
