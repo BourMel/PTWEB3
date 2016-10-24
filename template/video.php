@@ -24,23 +24,33 @@
 
 			/*contenu standard*/
 			if ($content == "none") {
-				print ("<main>
+				print ("<main class='row'>
 							<h1>Vidéo</h1>
-							<a href='video.php?content=association'>Association</a>
-							<a href='video.php?content=nathan'>Nathan</a>
+							
+							<a href='video.php?content=association'>
+								<div class='col col3 video__assoc'>
+									<h2 class='categTitle'>Les vidéos de l'association</h2>
+								</div>
+							</a>
+							
+							<a href='video.php?content=nathan'>
+								<div class='col col3 video__nathan'>
+									<h2 class='categTitle'>Les vidéos de Nathan</h2>
+								</div>
+							</a>
 						</main>");
 				
 			/*vidéos de l'association*/
 			} elseif ($content == "association") {
 				print ("<main>
-							<a href='video.php?content=nathan'>Nathan</a>
+							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
 							<h1>Vidéos de l'Association</h1>
 						</main>");
 				
 			/*vidéos de nathan*/
 			} elseif ($content == "nathan") {
 				print ("<main>
-							<a href='video.php?content=association'>Association</a>
+							<a href='video.php?content=association'>Voir les vidéos de l'association</a>
 							<h1>Vidéos de Nathan</h1>
 						</main>");
 			}

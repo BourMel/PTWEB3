@@ -1,0 +1,51 @@
+/*ARCHIVES*/
+
+.archives {
+	float:right;
+}
+
+/*disposition de la page*/
+
+.row {
+	margin-bottom:2em;
+}
+
+/*ARTICLES*/
+
+article {
+	/*pour plaquer le texte en bas de la div*/
+	display:flex;
+	align-items:flex-end;
+}
+
+article img {
+	height:12em;
+	float:left;
+	padding:0 1em 0 0;
+}
+
+/*date*/
+article span {
+	color:#c3c6c1;
+}
+
+article h4 {
+	padding:0 0 1em 0;
+	font-weight:800;
+}
+
+/*lien vers l'article*/
+article a {
+	float:right;
+	padding:0.3em 0 0 0;
+}
+
+/*article à la une*/
+
+.first__description {
+	font-size:1.3em;
+}
+
+.first img {
+	height:24em;
+}

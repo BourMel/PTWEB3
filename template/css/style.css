@@ -19,6 +19,13 @@ html {
 	margin:auto;
 }
 
+main {
+	/*espace après le header*/
+	padding:1em 0;
+	/*force le footer à aller en bas de la page même si pas de contenu*/
+	min-height:65vh;
+}
+
 /*sélections*/
 ::selection{
 	background-color:#fab38b;
@@ -32,6 +39,16 @@ html {
 
 hr {
 	display:none;
+}
+
+/*tous les titres, à ajuster*/
+h1 {
+	padding:1em 0;
+	background-image:url("../images/soulignement.png");
+	height:90px;
+	width:250px;
+	background-repeat:no-repeat;
+	background-position:30px 10px;
 }
 
 /*tous les liens*/
@@ -166,17 +183,23 @@ h2 {font-size: 1.3em;
 }
 
 /* ------------------------- FOOTER ------------------------- */
+/*ajouté le temps de travailler avec le reste du contenu :*/
+footer {
+	background-color:#fe7e36;
+}
+
+/*pour travailler plus correctement, laissé en commentaire :
 
 footer {
-	/*effet secondaire : annule le wrapper*/
+	/*effet secondaire : annule le wrapper
 	position:absolute;
 	bottom:1.5em;
-	/*caractéristiques du wrapper*/
+	/*caractéristiques du wrapper
 	width:75%;
 	margin:auto;
 }
 
-/*couleur du footer*/
+/*couleur du footer
 .wrapper::after {
 	content:'';
 	position:absolute;
@@ -185,24 +208,25 @@ footer {
 	background-color:#fe7e36;
 	height:11em;
 	width:100vw;
-	/*passe derrière pour que la courbe blanche fonctionne*/
+	/*passe derrière pour que la courbe blanche fonctionne
 	z-index:-20;
 }
 
 .footer__courbe {
 	position:absolute;
-	/*height du footer 10em*/
+	/*height du footer 10em
 	bottom:7.5em;
 	left:4em;
 	border-radius:50%;
 	height:300px;
 	width:700px;
 	background-color:#ffffff;
-	/*passe devant le fond coloré, derrière le contenu*/
+	/*passe devant le fond coloré, derrière le contenu
 	z-index:0;
 }
 
 /*soit tout le contenu du footer*/
+
 footer section {
 	position:relative;
 	z-index:10;

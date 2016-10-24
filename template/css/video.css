@@ -1,0 +1,22 @@
+/*PAGE : CHOIX ENTRE LES DEUX CATEGORIES*/
+
+.video__assoc, .video__nathan {
+	height:24em;
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.video__assoc {
+	background-image:url('../images/random.jpg');
+}
+
+.video__nathan {
+	background-image:url('../images/random.jpg');
+}
+
+.categTitle {
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.7);
+	line-height: 1.8;
+}
