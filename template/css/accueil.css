@@ -1,6 +1,10 @@
 h1, section {margin-bottom: 1em;}
 .us h2 {margin: 2em 0 0.5em 0;}
 
+.us h3 {margin: 1em 0 1em 0;
+  color: #fe7e36;
+}
+
 article .background {height: 12em;
   background: url('../images/random.jpg') no-repeat;
   color: #fff;

@@ -40,41 +40,6 @@
 
 			<h1>Blog de Nathan</h1>
 
-			<article class="first">
-				<img src="" alt="">
-				<span>20 SEPT, 2016</span>
-				<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-				<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-			</article>
-
-			<article>
-				<img src="" alt="">
-				<span>20 SEPT, 2016</span>
-				<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-				<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-			</article>
-
-			<article>
-				<img src="" alt="">
-				<span>20 SEPT, 2016</span>
-				<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-				<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-			</article>
-
-			<article>
-				<img src="" alt="">
-				<span>20 SEPT, 2016</span>
-				<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-				<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-			</article>
-
-			<article>
-				<img src="" alt="">
-				<span>20 SEPT, 2016</span>
-				<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-				<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-			</article>
-			
 			<section class="row">
 				<article class="first col col6">
 					<img src="./images/random.jpg" alt="">
@@ -86,7 +51,7 @@
 					</div>
 				</article>
 			</section>
-			
+
 			<section class="row">
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
@@ -97,7 +62,7 @@
 						<a href="construction.php">Lire la suite</a>
 					</a>
 				</article>
-				
+
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
 					<div class="description">
@@ -108,7 +73,7 @@
 					</div>
 				</article>
 			</section>
-			
+
 			<section class="row">
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
@@ -119,7 +84,7 @@
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>
-				
+
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
 					<div class="description">
@@ -139,6 +104,6 @@
   			require_once("footer.html");
   		?>
   </div>
-  
+
 </body>
 </html>

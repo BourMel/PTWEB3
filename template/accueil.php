@@ -64,9 +64,9 @@
 
 			<hr/>
 
-			<section class="us">
+			<section class="row us">
 				<h2>A propos de Vue du Coeur</h2>
-				<img src="" alt=""> <!--Dans html ou css ?-->
+				<img src="./images/random.jpg" alt="" class="col col2"> <!--Dans html ou css ?-->
 
 				<h3>Il était une fois un petit bonhomme…</h3>
 				<p>Nathan est né en 2007 en créant la surprise : il ne verrait jamais car ses nerfs optiques étaient trop fins pour laisser passer une quelconque information à son cerveau.</p>

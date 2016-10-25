@@ -22,7 +22,7 @@
 
 			<main class="row">
 				<h1>Contact</h1>
-				
+
 				<section class="col col3">
 					<a href="construction.php">
 						<div class="adhesion__img">
@@ -41,30 +41,30 @@
 						</ul>
 					</article>
 				</section>
-				
+
 				<hr/>
-				
+
 				<section class="col col3">
 					<form method="" action="construction.php">
 						<fieldset>
 							<label class="contact__label" for="nom">Votre nom</label>
-							<input class="contact__input" name="nom" id="nom">
+							<input class="contact__input" name="nom" id="nom" placeholder="Nom...">
 							<label class="contact__label" for="prenom">Votre prénom</label>
-							<input class="contact__input" name="prenom" id="prenom">
+							<input class="contact__input" name="prenom" id="prenom" placeholder="Prénom...">
 							<label class="contact__label" for="email">Votre adresse email</label>
-							<input class="contact__input" name="email" id="email">
+							<input class="contact__input" name="email" id="email" placeholder="Email...">
 						<fieldset>
 						<fieldset>
 							<label class="contact__label" for="objet">Objet du message</label>
-							<input class="contact__input" name="objet" id="objet">
+							<input class="contact__input" name="objet" id="objet" placeholder="Objet du message...">
 							<label class="contact__label" for="message">Corps du message</label>
-							<textarea name="message" id="message"></textarea>
+							<textarea name="message" id="message" placeholder="Corps du message..."></textarea>
 						</fieldset>
-						
+
 						<button type="submit" class="contact__button">Envoi</button>
 					</form>
 				</section>
-				
+
 			</main>
   	</div>
 

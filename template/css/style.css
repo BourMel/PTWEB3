@@ -185,13 +185,14 @@ h2 {font-size: 1.3em;
 /* ------------------------- FOOTER ------------------------- */
 /*ajouté le temps de travailler avec le reste du contenu :*/
 
-.background_footer {background-color: #fe7e36;
+.background_footer {background: url('../images/fond_fleur.jpg');
+  background-size: cover;
   width:100%;
-  padding: 1em 0 2em 0;
 }
 
-footer {width: 75%;
-  margin: auto;
+footer {width: 100%;
+padding: 1em 0 2em 0;
+  background-color: rgba(254, 126, 54, 0.9);
 }
 
 /*pour travailler plus correctement, laissé en commentaire :

@@ -1,15 +1,14 @@
 /*ADHESION*/
 
-.adhesion__img {
+.adhesion__img {display: inline-block; /* Remise à zéro du margin */
 	height:12em;
-	width:12em;
+	width:20em;
 	background-image:url("../images/random.jpg");
-	background-size:cover;
-	margin:1em 0;
+	background-size: cover;
 }
 
-.about {
-	width:18em;
+.about {display: inline-block; /* Annule les marges droite */
+	width:20em;
 }
 
 .adhesion__title {
@@ -22,7 +21,7 @@ h4 {
 	font-weight:800;
 	color:#fe7e36;
 	text-transform:uppercase;
-	padding:1em 0 0 0 ;
+	padding:1em 0 0.5em 0 ;
 }
 
 .adhesion__list {
@@ -37,20 +36,23 @@ h4 {
 	width:100%;
 }
 
+.contact__input, textarea {padding: 1.5em 1em;}
+
+input:focus, textarea:focus {outline: 1px solid #fe7e36;
+}
+
 .contact__label {
 	margin-bottom:0.5em;
 }
 
 .contact__input {
 	margin-bottom:1em;
-	border-radius:5px;
 	border:1px solid #fe7e36;
 	height:2em;
 }
 
 textarea {
 	height:12em;
-	border-radius:5px;
 	border:1px solid #fe7e36;
 }
 
