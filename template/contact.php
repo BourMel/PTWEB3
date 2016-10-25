@@ -23,13 +23,14 @@
 			<main>
 				<h1>Contact</h1>
 			</main>
+  	</div>
 
-
-		<!--Introduction footer, contenu fixe pour toutes pages JQUERY inclus.-->
-		<?php
-			require_once("footer.html");
-		?>
-	</div>
+    <div class="background_footer">
+    		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+    		<?php
+    			require_once("footer.html");
+    		?>
+    </div>
 
 </body>
 </html>

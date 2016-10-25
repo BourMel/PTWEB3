@@ -83,12 +83,14 @@
 				<strong>Pour Nathan et pour les autres.</strong>
 			</section>
 		</main>
-
-		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
-		<?php
-			require_once("footer.html");
-		?>
 	</div>
+
+  <div class="background_footer">
+  		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+  		<?php
+  			require_once("footer.html");
+  		?>
+  </div>
 
 </body>
 </html>

@@ -15,26 +15,28 @@
 
 <body>
 	<div class="wrapper">
-	
+
 <!--Introduction header et nav, contenu fixe pour toutes pages-->
 <?php
     require_once("header.html");
 ?>
-	
-<!--Vérifier si l'ajout de séparation rend le site + accessible-->
+
+<!--Vï¿½rifier si l'ajout de sï¿½paration rend le site + accessible-->
 <hr/>
-	
+
 		<main>
 			<h1>En construction</h1>
-			
+
 			<p>Oups ! Il semble que cette page n'existe pas encore.</p>
 		</main>
-	
-		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
-		<?php
-			require_once("footer.html");
-		?>
 	</div>
-	
+
+  <div class="background_footer">
+  		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+  		<?php
+  			require_once("footer.html");
+  		?>
+  </div>
+
 </body>
 </html>

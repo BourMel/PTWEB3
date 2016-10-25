@@ -18,7 +18,7 @@
 		<!--Introduction header et nav, contenu fixe pour toutes pages-->
 		<?php
 			require_once("header.html");
-			
+
 			// Récupération des variables
 			$content = $_GET['content'] ? $_GET['content'] : null ;
 
@@ -26,27 +26,27 @@
 			if ($content == "none") {
 				print ("<main class='row'>
 							<h1>Vidéo</h1>
-							
+
 							<a href='video.php?content=association'>
 								<div class='col col3 video__assoc'>
 									<h2 class='categTitle'>Les vidéos de l'association</h2>
 								</div>
 							</a>
-							
+
 							<a href='video.php?content=nathan'>
 								<div class='col col3 video__nathan'>
 									<h2 class='categTitle'>Les vidéos de Nathan</h2>
 								</div>
 							</a>
 						</main>");
-				
+
 			/*vidéos de l'association*/
 			} elseif ($content == "association") {
 				print ("<main>
 							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
 							<h1>Vidéos de l'Association</h1>
 						</main>");
-				
+
 			/*vidéos de nathan*/
 			} elseif ($content == "nathan") {
 				print ("<main>
@@ -54,11 +54,15 @@
 							<h1>Vidéos de Nathan</h1>
 						</main>");
 			}
-			
-			
-		/* Introduction footer, contenu fixe pour toutes pages JQUERY inclus */
-			require_once("footer.html");
 		?>
-	</div>
+
+  </div>
+
+  <div class="background_footer">
+      <!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+      <?php
+        require_once("footer.html");
+      ?>
+  </div>
 </body>
 </html>

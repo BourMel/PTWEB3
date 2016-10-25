@@ -184,8 +184,14 @@ h2 {font-size: 1.3em;
 
 /* ------------------------- FOOTER ------------------------- */
 /*ajouté le temps de travailler avec le reste du contenu :*/
-footer {
-	background-color:#fe7e36;
+
+.background_footer {background-color: #fe7e36;
+  width:100%;
+  padding: 1em 0 2em 0;
+}
+
+footer {width: 75%;
+  margin: auto;
 }
 
 /*pour travailler plus correctement, laissé en commentaire :

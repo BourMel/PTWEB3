@@ -37,9 +37,9 @@
 					<button type="submit">Voir</button>
 				</form>
 			</nav>
-		
+
 			<h1>Actualités de l'association</h1>
-			
+
 			<section class="row">
 				<article class="first col col6">
 					<img src="./images/random.jpg" alt="">
@@ -51,7 +51,7 @@
 					</div>
 				</article>
 			</section>
-			
+
 			<section class="row">
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
@@ -62,7 +62,7 @@
 						<a href="construction.php">Lire la suite</a>
 					</a>
 				</article>
-				
+
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
 					<div class="description">
@@ -73,7 +73,7 @@
 					</div>
 				</article>
 			</section>
-			
+
 			<section class="row">
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
@@ -84,7 +84,7 @@
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>
-				
+
 				<article class="col col3">
 					<img src="./images/random.jpg" alt="">
 					<div class="description">
@@ -96,13 +96,14 @@
 				</article>
 			</section>
 		</main>
-
-	<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
-	<?php
-		require_once("footer.html");
-	?>
-	
 	</div>
+
+  <div class="background_footer">
+  		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+  		<?php
+  			require_once("footer.html");
+  		?>
+  </div>
 
 </body>
 </html>
