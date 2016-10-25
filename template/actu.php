@@ -29,6 +29,16 @@
 					<select>
 						<option>Janvier
 						<option>Février
+						<option>Mars
+						<option>Avril
+						<option>Mai
+						<option>Juin
+						<option>Juillet
+						<option>Août
+						<option>Septembre
+						<option>Octobre
+						<option>Novembre
+						<option>Décembre
 					</select>
 					<select>
 						<option>2015
@@ -42,11 +52,11 @@
 			
 			<section class="row">
 				<article class="first col col6">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/first__actu.jpg" alt="Sortie à l'Orangerie">
 					<div class="first__description">
-						<span>20 SEPT, 2016</span>
-						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+						<span>1 OCT, 2016</span>
+						<h4>Première séance de jeux à l'Orangerie</h4>
+						<p>Ils étaient cinq à répondre présents à l’appel de  Clément et Nicolas. Dion, Mathéo, Nael, Nathan et Orela. Prêts à vouloir apprendre à se servir du GPS comme leur champion, comme leurs modèles.</p>
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>
@@ -54,21 +64,21 @@
 			
 			<section class="row">
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/rencontre_juillet.jpg" alt="">
 					<div class="description">
-						<span>20 SEPT, 2016</span>
-						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+						<span>5 JUIL, 2016</span>
+						<h4>Et voici la rencontre du 3 juillet en images</h4>
+						<p>…grâce à Yves Wansi, le président de « Vue d’ensemble »  qui soutient l’action de « Vue du cœur » et qui a accompagné le projet : toute la journée avec sa petite caméra, il...</p>
 						<a href="construction.php">Lire la suite</a>
 					</a>
 				</article>
 				
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/reunion_enfants.jpg" alt="">
 					<div class="description">
-						<span>20 SEPT, 2016</span>
-						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+						<span>3 JUIL, 2016</span>
+						<h4>Une rencontre, l’aboutissement d’un beau projet d’année !</h4>
+						<p>En ce vendredi matin 1 juillet, à l’école élémentaire de Weitbruch, les élèves du CP de Madame Christophe  étaient en émoi et bien impatients de voir arriver leurs invités du jour, ...</p>
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>
@@ -76,21 +86,21 @@
 			
 			<section class="row">
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/course.jpg" alt="">
 					<div class="description">
-						<span>20 SEPT, 2016</span>
-						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
+						<span>14 JUIN, 2016</span>
+						<h4>Des graines de champions parmi les champions !</h4>
 						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>
 				
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/kermesse.jpg" alt="">
 					<div class="description">
-						<span>20 SEPT, 2016</span>
-						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+						<span>8 JUIN, 2016</span>
+						<h4>« Vue du coeur » présente à la kermesse de l’école</h4>
+						<p>….de Weitbruch, ce vendredi 3 juin. La tête et les jambes étaient sollicitées. Donc 11 ateliers de sport, de mathématiques, de blasons, de la bibliothèque et…. un atelier  d’initiation au braille.</p>
 						<a href="construction.php">Lire la suite</a>
 					</div>
 				</article>

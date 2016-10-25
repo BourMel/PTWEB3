@@ -1,0 +1,70 @@
+/*ADHESION*/
+
+.adhesion__img {
+	height:12em;
+	width:12em;
+	background-image:url("../images/random.jpg");
+	background-size:cover;
+	margin:1em 0;
+}
+
+.about {
+	width:18em;
+}
+
+.adhesion__title {
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.7);
+	line-height: 1.8;
+}
+
+h4 {
+	font-weight:800;
+	color:#fe7e36;
+	text-transform:uppercase;
+	padding:1em 0 0 0 ;
+}
+
+.adhesion__list {
+	list-style-image:url("../images/puce.png");
+	padding:0 0 0 1.5em;
+}
+
+/*FORMULAIRE*/
+
+.contact__input, textarea, .contact__label {
+	display:block;
+	width:100%;
+}
+
+.contact__label {
+	margin-bottom:0.5em;
+}
+
+.contact__input {
+	margin-bottom:1em;
+	border-radius:5px;
+	border:1px solid #fe7e36;
+	height:2em;
+}
+
+textarea {
+	height:12em;
+	border-radius:5px;
+	border:1px solid #fe7e36;
+}
+
+.contact__button {
+	float:right;
+	border:1px solid #fe7e36;
+	padding:0.5em;
+	text-transform:uppercase;
+	width:6em;
+	background-color:transparent;
+	margin:1em 0;
+}
+
+.contact__button:hover {
+	color:#fe7e36;
+	cursor:pointer;
+}
