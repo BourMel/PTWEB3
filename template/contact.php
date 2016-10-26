@@ -21,7 +21,7 @@
 		?>
 
 			<main class="row">
-				<h1>Contact</h1>
+				<h1 class="deco">Contact</h1>
 
 				<section class="col col3">
 					<a href="construction.php">

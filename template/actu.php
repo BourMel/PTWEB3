@@ -48,7 +48,7 @@
 				</form>
 			</nav>
 
-			<h1>Actualités de l'association</h1>
+			<h1  class="deco">Actualités de l'association</h1>
 
 			<section class="row">
 				<article class="first col col6">

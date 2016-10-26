@@ -25,7 +25,7 @@
 <hr/>
 
 		<main>
-			<h1>En construction</h1>
+			<h1 class="deco">En construction</h1>
 
 			<p>Oups ! Il semble que cette page n'existe pas encore.</p>
 		</main>

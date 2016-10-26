@@ -25,7 +25,7 @@
 			/*contenu standard*/
 			if ($content == "none") {
 				print ("<main class='row'>
-							<h1>Vidéo</h1>
+							<h1 class='deco'>Vidéo</h1>
 
 							<a href='video.php?content=association'>
 								<div class='col col3 video__assoc'>
@@ -44,14 +44,43 @@
 			} elseif ($content == "association") {
 				print ("<main>
 							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
-							<h1>Vidéos de l'Association</h1>
+							<h1 class='deco'>Vidéos de l'Association</h1>
+							
+							<section class='row video__main'>
+								<!--rien ne vaut un petit test qui pèse léger-->
+								<iframe class='col col4' src='https://www.youtube.com/embed/u4zb6LUehwY'></iframe>
+								<div class='col col2 video__main__description'>
+									<span>20 SEPT, 2016</span>
+									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+								</div>								
+							</section>
+							
+							<section class='row video__list'>
+							
+							</section>
+							
 						</main>");
 
 			/*vidéos de nathan*/
 			} elseif ($content == "nathan") {
 				print ("<main>
 							<a href='video.php?content=association'>Voir les vidéos de l'association</a>
-							<h1>Vidéos de Nathan</h1>
+							<h1 class='deco'>Vidéos de Nathan</h1>
+							
+							<section class='row video__main'>
+								<!--rien ne vaut un petit test qui pèse léger-->
+								<iframe class='col col4' src='https://www.youtube.com/embed/u4zb6LUehwY'></iframe>
+								<div class='col col2 video__main__description'>
+									<span>20 SEPT, 2016</span>
+									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+								</div>								
+							</section>
+							
+							<section class='row video__list'>
+							
+							</section>
 						</main>");
 			}
 		?>

@@ -38,7 +38,7 @@
 				</form>
 			</nav>
 
-			<h1>Blog de Nathan</h1>
+			<h1 class="deco">Blog de Nathan</h1>
 
 			<section class="row">
 				<article class="first col col6">

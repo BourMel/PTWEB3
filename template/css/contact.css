@@ -1,6 +1,8 @@
 /*ADHESION*/
 
-.adhesion__img {display: inline-block; /* Remise à zéro du margin */
+.adhesion__img {/*display: inline-block;  Remise à zéro du margin -
+	Edit : supprimé car il faisait sauter l'image
+	à partir d'une grande largeur d'écran*/
 	height:12em;
 	width:20em;
 	background-image:url("../images/random.jpg");

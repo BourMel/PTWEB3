@@ -25,7 +25,7 @@
 <hr/>
 
 		<main>
-			<h1>Accueil</h1>
+			<h1 class="deco">Accueil</h1>
 
 			<hr/>
 

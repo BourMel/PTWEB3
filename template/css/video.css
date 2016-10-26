@@ -20,3 +20,29 @@
 	background-color: rgba(255, 255, 255, 0.7);
 	line-height: 1.8;
 }
+
+/*PAGE DE LECTURE DE VIDEOS*/
+
+section {
+	/*pour plaquer le texte en bas de la div*/
+	display:flex;
+	align-items:flex-end;
+}
+
+.video__main {
+	height:12em;
+	font-size:1.2em;
+}
+
+/*date*/
+
+section span {
+	color:#c3c6c1;
+}
+
+/*titre des vidéos*/
+
+section h4 {
+	padding:0 0 1em 0;
+	font-weight:800;
+}
