@@ -24,9 +24,9 @@
 		<main>
 			<!--Menu déroulant d'accès aux archives-->
 			<nav class="archives">
-				<form action="construction.php" method="">
-					<label for="">Accès aux archives</label>
-					<select>
+				<form action="construction.php" method="post">
+					<label for="archives">Accès aux archives</label>
+					<select id="archives">
 						<option>Janvier
 						<option>Février
 						<option>Mars
@@ -44,7 +44,7 @@
 						<option>2015
 						<option>2016
 					</select>
-					<button type="submit">Voir</button>
+					<button class="slide" type="submit">Voir</button>
 				</form>
 			</nav>
 
@@ -52,7 +52,7 @@
 
 			<section class="row">
 				<article class="first col col6">
-					<img src="./images/first__actu.jpg" alt="Sortie à l'Orangerie">
+					<img src="./images/first__actu.jpg" class="articleLink" alt="Sortie à l'Orangerie">
 					<div class="first__description">
 						<span>1 OCT, 2016</span>
 						<h4>Première séance de jeux à l'Orangerie</h4>
@@ -108,12 +108,10 @@
 		</main>
 	</div>
 
-  <div class="background_footer">
   		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
   		<?php
   			require_once("footer.html");
   		?>
-  </div>
 
 </body>
 </html>

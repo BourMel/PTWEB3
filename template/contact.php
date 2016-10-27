@@ -45,7 +45,7 @@
 				<hr/>
 
 				<section class="col col3">
-					<form method="" action="construction.php">
+					<form method="post" action="construction.php">
 						<fieldset>
 							<label class="contact__label" for="nom">Votre nom</label>
 							<input class="contact__input" name="nom" id="nom" placeholder="Nom...">
@@ -57,23 +57,21 @@
 						<fieldset>
 							<label class="contact__label" for="objet">Objet du message</label>
 							<input class="contact__input" name="objet" id="objet" placeholder="Objet du message...">
-							<label class="contact__label" for="message">Corps du message</label>
+							<label class="contact__label" for="message" id="messageLabel">Corps du message</label>
 							<textarea name="message" id="message" placeholder="Corps du message..."></textarea>
 						</fieldset>
 
-						<button type="submit" class="contact__button">Envoi</button>
+						<button type="submit" class="contact__button slide">Envoi</button>
 					</form>
 				</section>
 
 			</main>
   	</div>
 
-    <div class="background_footer">
     		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
     		<?php
     			require_once("footer.html");
     		?>
-    </div>
 
 </body>
 </html>

@@ -12,6 +12,16 @@ article .background {height: 12em;
   /*border: 2px solid #fe7e36;*/
 }
 
+.background h4 {
+	transition:all 500ms;
+}
+
+.background:hover h4 {
+	line-height:2.5;
+	font-size:1.5em;
+	color:#000000;
+}
+
 h4 {text-transform: uppercase;
   text-align: center;
   line-height: 1.8;

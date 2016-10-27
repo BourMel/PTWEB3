@@ -29,13 +29,14 @@ le header via header.html-->
 				<li><a href="template/contact.php">Contact</a></li>
 			</ul>
 			
-			<img class="indexLogo" src="template/images/logo.png" alt="">	
+			<div class="fa fa-bars" id="burger"></div> <!--menu hamburger-->
+			<img class="indexLogo" src="template/images/logo.png" alt="Logo de Vue du Coeur">	
 		</nav>	
 		
 		<main class="about">
 			<h1>Vue du Cœur</h1>
 			<p class="explain">Nous sommes une association qui vient en aide aux enfants non-voyants.</p>
-			<p class="enterSite"><a href="./template/accueil.php">Accès au site</a></p>
+			<p class="enterSite"><a class="slide" href="./template/accueil.php">Accès au site</a></p>
 		</main>
 	</header>
 	

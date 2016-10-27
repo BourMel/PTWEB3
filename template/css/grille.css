@@ -1,4 +1,7 @@
 /* AVEC GOUTTIÈRES */
+.wrapper {
+	width:75%;
+}
 
 .row:after {
     display:block;
@@ -28,7 +31,15 @@
 .col6 {width:calc(100% - 2em / 6 * 6);
 }
 
-/* SANS GOUTTIÈRES */
+#burger {
+	display:none;
+	font-size:2em;
+	position:absolute;
+	top:0.5em;
+	right:1em;
+}
+
+/* SANS GOUTTIÈRES
 
 .scol {float: left;
   margin-right: 1em;
@@ -50,38 +61,75 @@
 }
 
 .scol6 {width:calc(100% / 6 * 6);
-}
+} */
 
 /* MEDIA QUERIES */
+/*laptop*/
 
-@media (max-width:800px) {
-    .wrapper {
-        width:100%;
-    }
-
-    .col1 {
-        width:calc((100% - 4em) / 3);
-    }
-
-    .col2 {
-        width:calc((100% - 3em) / 2);
-    }
-
-    .col4, .col5, .col6 {
-        width:calc(100% - 2em);
-    }
+@media(max-width:1500px) {
+	.wrapper {
+		width:95%;
+	}
 }
 
+/*tablet*/
+@media (max-width:800px) {
+    .wrapper {
+        width:95%;
+    }
+	
+	#burger {
+		display:block;
+		cursor:pointer;
+	}
+	
+	#mainMenu a {
+		display:none;
+	}
+	
+	.header__citation {
+		display:none;
+	}
+	
+	/*SI MENU HAMBURGER*/
+	.burger #mainMenu a {
+		display:block;
+	}
+	
+	/*le nom de l'assoc n'apparaît pas malgré le clic*/
+	.burger .mainMenu__name {
+		display:none;
+	}
+	
+	.burger .mainMenu__courbe {
+		display:none;
+	}
+	
+	/*couleur du menu*/
+	.burger .wrapper::before {
+		height:8em;
+	}
+	
+	.burger .mainMenu__logo {
+		display:none;
+	}
+}
+
+/*phone*/
 @media (max-width:400px) {
     html {
         font-size:24px;
     }
 
     .wrapper {
-        width:100%;
+        width:95%;
     }
 
     .col1, .col2, .col3, .col4, .col5, .col6 {
         width:calc(100% - 2em);
     }
+	
+	.mainMenu__logo {
+		display:none;
+	}
 }

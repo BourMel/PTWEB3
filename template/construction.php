@@ -28,15 +28,14 @@
 			<h1 class="deco">En construction</h1>
 
 			<p>Oups ! Il semble que cette page n'existe pas encore.</p>
+			<a class="slide" href="contact.php">Nous contacter</a>
 		</main>
 	</div>
 
-  <div class="background_footer">
   		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
   		<?php
   			require_once("footer.html");
   		?>
-  </div>
 
 </body>
 </html>

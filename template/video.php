@@ -8,6 +8,7 @@
     <!--Introduction des feuilles de style-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/flickity.css">
 	<link rel="stylesheet" href="./css/grille.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/video.css">
@@ -28,13 +29,13 @@
 							<h1 class='deco'>Vidéo</h1>
 
 							<a href='video.php?content=association'>
-								<div class='col col3 video__assoc'>
+								<div class='col col3 choixVideo video__assoc'>
 									<h2 class='categTitle'>Les vidéos de l'association</h2>
 								</div>
 							</a>
 
 							<a href='video.php?content=nathan'>
-								<div class='col col3 video__nathan'>
+								<div class='col col3 choixVideo video__nathan'>
 									<h2 class='categTitle'>Les vidéos de Nathan</h2>
 								</div>
 							</a>
@@ -46,19 +47,74 @@
 							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
 							<h1 class='deco'>Vidéos de l'Association</h1>
 							
+							<h1>A la une</h1>
+							
 							<section class='row video__main'>
-								<!--rien ne vaut un petit test qui pèse léger-->
-								<iframe class='col col4' src='https://www.youtube.com/embed/u4zb6LUehwY'></iframe>
-								<div class='col col2 video__main__description'>
+								<div class='col col4'>
+									<video controls class='col col3' src='videos/video.mp4'>Vidéo</video>
+								</div>
+								<div class='col col3 video__main__description'>
 									<span>20 SEPT, 2016</span>
 									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
 								</div>								
 							</section>
 							
-							<section class='row video__list'>
+							<h1>Vidéos plus anciennes</h1>
 							
-							</section>
+							<nav class='row video__list'>
+								<ul data-flickity class='carousel'>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									<li class='carousel-cell'>
+										<img class='col' src='images/random.jpg' alt='autre vidéo'>
+										<div class='col col3 video__description'>
+											<span>20 SEPT, 2016</span>
+											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+										</div>		
+									</li>
+									
+								</ul>
+							</nav>
 							
 						</main>");
 
@@ -69,29 +125,30 @@
 							<h1 class='deco'>Vidéos de Nathan</h1>
 							
 							<section class='row video__main'>
-								<!--rien ne vaut un petit test qui pèse léger-->
-								<iframe class='col col4' src='https://www.youtube.com/embed/u4zb6LUehwY'></iframe>
-								<div class='col col2 video__main__description'>
+								<div class='col col4'>
+									<video controls class='col col3' src='videos/video.mp4'>Vidéo</video>
+								</div>
+								<div class='col col3 video__main__description'>
 									<span>20 SEPT, 2016</span>
 									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
 								</div>								
 							</section>
 							
-							<section class='row video__list'>
-							
-							</section>
+							<nav class='row video__list'>
+								
+							</nav>
 						</main>");
 			}
 		?>
 
   </div>
 
-  <div class="background_footer">
+  	<script src="js/flickity.min.js"></script>
       <!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
       <?php
         require_once("footer.html");
       ?>
-  </div>
+
 </body>
 </html>
