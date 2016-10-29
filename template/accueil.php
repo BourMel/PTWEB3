@@ -15,12 +15,12 @@
 
 <body>
     <div class="wrapper">
-	
+
         <!--Introduction header et nav, contenu fixe pour toutes pages-->
         <?php
-			require_once("header.html");
-		?>
-			
+			     require_once("header.html");
+		    ?>
+
             <!--Vérifier si l'ajout de séparation rend le site + accessible-->
             <hr/>
             <main>
@@ -28,35 +28,35 @@
                 <hr/>
                 <section class="news">
                     <h2>Nouveautés</h2>
-                    
+
                     <div class="row">
                         <a href="construction.php">
                             <article class="col col2">
                                 <div class="background">
                                     <h4>Actualités</h4>
-                                    <img src="./images/blog2.jpg" alt="blog">
+                                    <img src="./images/video_asso.jpg" alt="blog">
                                 </div>
                                 <span>28 SEPT, 2016</span>
                                 <h3>Kombissiri au cinéma Le VOX</h3>
                             </article>
                         </a>
-                        
+
                         <a href="construction.php">
                             <article class="col col2">
                                 <div class="background">
                                     <h4>Blog</h4>
-                                    <img src="./images/blog2.jpg" alt="blog">
+                                    <img src="./images/video_asso.jpg" alt="blog">
                                 </div>
                                 <span>28 SEPT, 2016</span>
                                 <h3>Kombissiri au cinéma Le VOX</h3>
                             </article>
                         </a>
-                        
+
                         <a href="construction.php">
                             <article class="col col2">
                                 <div class="background">
                                     <h4>Blog</h4>
-                                    <img src="./images/blog2.jpg" alt="blog">
+                                    <img src="./images/video_asso.jpg" alt="blog">
                                 </div>
                                 <span>28 SEPT, 2016</span>
                                 <h3>Kombissiri au cinéma Le VOX</h3>
@@ -64,14 +64,14 @@
                         </a>
                     </div>
                 </section>
-                
+
                 <hr/>
-                
+
                 <section class="row us">
                     <h2>A propos de Vue du Coeur</h2>
-                    <img src="./images/random.jpg" alt="" class="col col2">
+                    <img src="./images/video_nathan.jpg" alt="" class="col col2">
                     <!--Dans html ou css ?-->
-                    
+
                     <h3>Il était une fois un petit bonhomme…</h3>
                     <p>Nathan est né en 2007 en créant la surprise : il ne verrait jamais car ses nerfs optiques étaient trop fins pour laisser passer une quelconque information à son cerveau.</p>
                     <h3>…extraordinaire…</h3>
@@ -85,10 +85,9 @@
                 </section>
             </main>
     </div>
-    
-    
-        <!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
-        <?php
+
+  		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
+  		<?php
   			require_once("footer.html");
   		?>
 

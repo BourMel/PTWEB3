@@ -6,7 +6,7 @@
 	background-size:cover;
 }
 
-.choixVidéo h2 {
+.choixVideo h2 {
 	transition:all 500ms;
 }
 
@@ -17,11 +17,11 @@
 }
 
 .video__assoc {
-	background-image:url('../images/random.jpg');
+	background-image:url('../images/video_asso.jpg');
 }
 
 .video__nathan {
-	background-image:url('../images/random.jpg');
+	background-image:url('../images/video_nathan.jpg');
 }
 
 .categTitle {
@@ -35,6 +35,10 @@
 section {
 	display:flex;
 	margin:2em 0;
+}
+
+video {/* Pour éviter qu'avec une miniautre blanche on ne voit pas la limite de la vidéo */
+	border: 2px solid #fe7e36;
 }
 
 /*vidéo en lecture*/
@@ -63,10 +67,19 @@ section h4 {
 }
 
 /*liste des vidéos*/
+.video__list { /* Fond permet de savoir où commence le slider */
+	margin-top: 1em;
+	background-color: #fab38b;
+}
+
 .video__list ul {
 	display:inline-block;
 	margin:auto;
-	width:80%;
+	width:100%;
+}
+
+.video__description span,
+.video__description h4 {padding-bottom: 1em;
 }
 
 .carousel-cell {

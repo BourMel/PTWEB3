@@ -42,56 +42,56 @@
 
 			<section class="row">
 				<article class="first col col6">
-					<img src="./images/nathan_merci.jpg" alt="">
+					<img src="./images/blog_merci.jpg" alt="">
 					<div class="first__description">
 						<span>19 SEPT, 2015</span>
 						<h4>Nathan vous dit merci</h4>
-						<p>A tout ceux qui étaient présents mardi pour la soirée de sensibilisation, Nathan vous dit tout simplement merci. Il a...</p>
-						<a href="construction.php">Lire la suite</a>
+						<p>A tout ceux qui étaient présents mardi pour la soirée de sensibilisation, Nathan vous dit tout simplement merci. Il a [...]</p>
+						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
 			</section>
 
 			<section class="row">
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
 						<span>20 SEPT, 2016</span>
 						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-						<a href="construction.php">Lire la suite</a>
+						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin [...]</p>
+						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
 
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
 						<span>20 SEPT, 2016</span>
 						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-						<a href="construction.php">Lire la suite</a>
+						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin [...]</p>
+						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
 			</section>
 
 			<section class="row">
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
 						<span>20 SEPT, 2016</span>
 						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-						<a href="construction.php">Lire la suite</a>
+						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin [...]</p>
+						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
 
 				<article class="col col3">
-					<img src="./images/random.jpg" alt="">
+					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
 						<span>20 SEPT, 2016</span>
 						<h4>"Vue du Coeur" fait sa rentrée : le calendrier</h4>
-						<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-						<a href="construction.php">Lire la suite</a>
+						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
 			</section>

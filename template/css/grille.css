@@ -77,39 +77,39 @@
     .wrapper {
         width:95%;
     }
-	
+
 	#burger {
 		display:block;
 		cursor:pointer;
 	}
-	
+
 	#mainMenu a {
 		display:none;
 	}
-	
+
 	.header__citation {
 		display:none;
 	}
-	
+
 	/*SI MENU HAMBURGER*/
 	.burger #mainMenu a {
 		display:block;
 	}
-	
+
 	/*le nom de l'assoc n'apparaît pas malgré le clic*/
 	.burger .mainMenu__name {
 		display:none;
 	}
-	
+
 	.burger .mainMenu__courbe {
 		display:none;
 	}
-	
+
 	/*couleur du menu*/
 	.burger .wrapper::before {
 		height:8em;
 	}
-	
+
 	.burger .mainMenu__logo {
 		display:none;
 	}
@@ -128,7 +128,7 @@
     .col1, .col2, .col3, .col4, .col5, .col6 {
         width:calc(100% - 2em);
     }
-	
+
 	.mainMenu__logo {
 		display:none;
 	}

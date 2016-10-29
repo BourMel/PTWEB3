@@ -46,9 +46,9 @@
 				print ("<main>
 							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
 							<h1 class='deco'>Vidéos de l'Association</h1>
-							
+
 							<h1>A la une</h1>
-							
+
 							<section class='row video__main'>
 								<div class='col col4'>
 									<video controls class='col col3' src='videos/video.mp4'>Vidéo</video>
@@ -57,65 +57,65 @@
 									<span>20 SEPT, 2016</span>
 									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-								</div>								
+								</div>
 							</section>
-							
+
 							<h1>Vidéos plus anciennes</h1>
-							
+
 							<nav class='row video__list'>
 								<ul data-flickity class='carousel'>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
 									<li class='carousel-cell'>
-										<img class='col' src='images/random.jpg' alt='autre vidéo'>
-										<div class='col col3 video__description'>
+										<img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										<div class='video__description'>
 											<span>20 SEPT, 2016</span>
 											<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 											<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-										</div>		
+										</div>
 									</li>
-									
+
 								</ul>
 							</nav>
-							
+
 						</main>");
 
 			/*vidéos de nathan*/
@@ -123,7 +123,7 @@
 				print ("<main>
 							<a href='video.php?content=association'>Voir les vidéos de l'association</a>
 							<h1 class='deco'>Vidéos de Nathan</h1>
-							
+
 							<section class='row video__main'>
 								<div class='col col4'>
 									<video controls class='col col3' src='videos/video.mp4'>Vidéo</video>
@@ -132,11 +132,61 @@
 									<span>20 SEPT, 2016</span>
 									<h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 									<p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
-								</div>								
+								</div>
 							</section>
-							
+
 							<nav class='row video__list'>
-								
+                <ul data-flickity class='carousel'>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+                  <li class='carousel-cell'>
+                    <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
+                    <div class='video__description'>
+                      <span>20 SEPT, 2016</span>
+                      <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
+                      <p>… ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
+                    </div>
+                  </li>
+
+                </ul>
 							</nav>
 						</main>");
 			}
@@ -144,11 +194,11 @@
 
   </div>
 
-  	<script src="js/flickity.min.js"></script>
       <!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
       <?php
         require_once("footer.html");
       ?>
 
+    <script src="js/flickity.min.js"></script>
 </body>
 </html>
