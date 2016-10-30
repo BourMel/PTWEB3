@@ -13,6 +13,17 @@ lien.click(function (ev) {
     body.toggleClass('burger');
 });
 
+//flickity
+
+$('.carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  draggable: false,
+  initialIndex: 2
+});
+
+
 //formulaire
 var exp = /[a-z]+/;
 var expMail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;

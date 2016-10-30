@@ -5,6 +5,7 @@
     <title>Article actu | Vue du Coeur</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
+	<link rel="icon" href="favicon.ico" />
     <!--Introduction des feuilles de style-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -24,7 +25,7 @@
 		<main>
 			<!--Menu déroulant d'accès aux archives-->
 			<nav class="archives">
-				<a href="actu.php">◀︎ Revenir à la page précédente</a>
+				<a href="actu.php">◀︎ Revenir à la page Actualités</a>
 			</nav>
 
 			<section class="row">

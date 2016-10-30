@@ -5,6 +5,7 @@
     <title>Actualités | Vue du Coeur</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0">
+	<link rel="icon" href="favicon.ico" />
     <!--Introduction des feuilles de style-->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
