@@ -8,7 +8,6 @@
 	<link rel="icon" href="favicon.ico" />
     <!--Introduction des feuilles de style-->
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/grille.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/article.css">
