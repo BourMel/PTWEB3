@@ -53,8 +53,8 @@
 
 			<div class="row">
 				<article class="first col col6">
-					<img src="./images/actu_orangerie.jpg" class="articleLink" alt="Sortie à l'Orangerie">
-					<div class="first__description">
+					<a href="article_actu.php" class="col col6 lien__image"><img src="./images/actu_orangerie.jpg" class="articleLink" alt="Sortie à l'Orangerie"></a>
+					<div class="col col6 first__description">
 						<span>1 OCT, 2016</span>
 						<h4>Première séance de jeux à l'Orangerie</h4>
 						<p>Ils étaient cinq à répondre présents à l’appel de  Clément et Nicolas. Dion, Mathéo, Nael, Nathan et
@@ -66,8 +66,8 @@
 
 			<div class="row">
 				<article class="col col3">
-					<img src="./images/actu_juillet.jpg" alt="Rencontre de juillet ">
-					<div class="description">
+					<a href="article_actu.php" class="col col6 lien__image"><img src="./images/actu_juillet.jpg" alt="Rencontre de juillet "></a>
+					<div class="col col6 description">
 						<span>5 JUIL, 2016</span>
 						<h4>Et voici la rencontre du 3 juillet en images</h4>
 						<p>Grâce à Yves Wansi, le président de « Vue d’ensemble » qui soutient l’action de « Vue du cœur »
@@ -77,8 +77,8 @@
 				</article>
 
 				<article class="col col3">
-					<img src="./images/actu_cp.jpg" alt="">
-					<div class="description">
+					<a href="article_actu.php" class="col col6 lien__image"><img src="./images/actu_cp.jpg" alt=""></a>
+					<div class="col col6 description">
 						<span>3 JUIL, 2016</span>
 						<h4>Une rencontre, l’aboutissement d’un beau projet d’année !</h4>
 						<p>En ce vendredi matin 1 juillet, à l’école élémentaire de Weitbruch, les élèves du CP de
@@ -90,8 +90,8 @@
 
 			<div class="row">
 				<article class="col col3">
-					<img src="./images/actu_course.jpg" alt="">
-					<div class="description">
+					<a href="article_actu.php" class="col col6 lien__image"><img src="./images/actu_course.jpg" alt=""></a>
+					<div class="col col6 description">
 						<span>14 JUIN, 2016</span>
 						<h4>Des graines de champions parmi les champions !</h4>
 						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont
@@ -101,8 +101,8 @@
 				</article>
 
 				<article class="col col3">
-					<img src="./images/actu_kermesse.jpg" alt="">
-					<div class="description">
+				  <a href="article_actu.php" class="col col6 lien__image"><img src="./images/actu_kermesse.jpg" alt=""></a>
+					<div class="col col6 description">
 						<span>8 JUIN, 2016</span>
 						<h4>« Vue du coeur » présente à la kermesse de l’école</h4>
 						<p>De Weitbruch, ce vendredi 3 juin. La tête et les jambes étaient sollicitées. Donc 11 ateliers de

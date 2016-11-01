@@ -10,7 +10,7 @@ header a:hover {
 
 body {
 	/*photographie à changer*/
-	background-image:url("../images/accueil.jpg");
+	background-image:url("../images/index.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:100vh;
@@ -33,7 +33,7 @@ body {
 .indexMenu li::after {
 	content:'|';
 	padding:0 1em;
-} 
+}
 
 .indexLogo {
 	height:2em;
@@ -54,7 +54,7 @@ body {
 	text-align:center;
 }
 
-/*bordure supplémentaire, à adapter après mise en forme du texte*/
+/*bordure supplémentaire, à adapter après mise en forme du texte
 .about::after {
 	content:'';
 	display:block;
@@ -66,7 +66,7 @@ body {
 	height:350px;
 	width:600px;
 	z-index:-1;
-}
+}*/
 
 .about h1 {
 	font-size:4.5em;

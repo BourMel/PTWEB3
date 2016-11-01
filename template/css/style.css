@@ -305,14 +305,15 @@ footer a {
 	margin-top:0.3em;
 }
 
-.footer__input {
-	border-radius:5px;
-	border:2px solid #c3c6c1;
+.footer__input {border: none;
+  padding: 0.5em;
 }
+
+.footer__input:focus {outline: 1px solid #fe7e36;}
 
 .footer__button {
 	border:1px solid #ffffff;
-	padding:2px;
+	padding:0.4em;
 	color:#ffffff;
   z-index:10;
 }

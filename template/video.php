@@ -65,7 +65,7 @@
 
 							<nav class='row video__list'>
 								<ul data-flickity class='carousel'>");
-                       
+
                     for($i=0;$i<15;$i++) {
                         print ("    <li class='carousel-cell'>
 										  <img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
@@ -75,7 +75,7 @@
 										  </div>
 								    </li>");
                     }
-                
+
                     print ("    </ul>
 							</nav>
 						</main>");
@@ -103,17 +103,17 @@
 
 							<nav class='row video__list'>
 								<ul data-flickity class='carousel'>");
-                       
+
                     for($i=0;$i<15;$i++) {
                         print ("    <li class='carousel-cell'>
-										  <img class='col' src='images/video_asso.jpg' alt='autre vidéo'>
+										  <img class='col' src='images/video_nathan.jpg' alt='autre vidéo'>
 										  <div class='video__description'>
 											 <span>20 SEPT, 2016</span>
 											 <h4>Vue du Coeur fait sa rentrée : le calendrier</h4>
 										  </div>
 								    </li>");
                     }
-                
+
                     print ("    </ul>
 							</nav>
 						</main>");

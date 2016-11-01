@@ -94,6 +94,7 @@
 	/*SI MENU HAMBURGER*/
 	.burger #mainMenu a {
 		display:block;
+		font-size: 0.8em;
 	}
 
 	/*le nom de l'assoc n'apparaît pas malgré le clic*/

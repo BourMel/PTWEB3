@@ -62,6 +62,10 @@ section h4 {
 
 /*LISTE DES VIDEOS*/
 
+.carousel {max-width: 85%;
+	margin: auto;
+}
+
 .video__list {
 	margin-top: 1em;
 }

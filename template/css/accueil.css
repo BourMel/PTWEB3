@@ -5,6 +5,8 @@ h1, section {margin-bottom: 1em;}
   color: #fe7e36;
 }
 
+.us h3:first-of-type {margin-top: 0;}
+
 article .background {height: 12em;
   background: url('../images/video_asso.jpg') no-repeat;
   color: #fff;
