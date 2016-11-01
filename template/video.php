@@ -48,7 +48,7 @@
 							<a href='video.php?content=nathan'>Voir les vidéos de Nathan</a>
 							<h1 class='deco'>Vidéos de l'Association</h1>
 
-							<h1>A la une</h1>
+							<h1 class='section__title'>A la une</h1>
 
 							<section class='row video__main'>
 								<div class='col col4'>
@@ -61,7 +61,7 @@
 								</div>
 							</section>
 
-							<h1>Vidéos plus anciennes</h1>
+							<h1 class='section__title'>Vidéos plus anciennes</h1>
 
 							<nav class='row video__list'>
 								<ul data-flickity class='carousel'>");
@@ -86,7 +86,7 @@
 							<a href='video.php?content=association'>Voir les vidéos de l'association</a>
 							<h1 class='deco'>Vidéos de Nathan</h1>
 
-							<h1>A la une</h1>
+							<h1 class='section__title'>A la une</h1>
 
 							<section class='row video__main'>
 								<div class='col col4'>
@@ -99,7 +99,7 @@
 								</div>
 							</section>
 
-							<h1>Vidéos plus anciennes</h1>
+							<h1 class='section__title'>Vidéos plus anciennes</h1>
 
 							<nav class='row video__list'>
 								<ul data-flickity class='carousel'>");

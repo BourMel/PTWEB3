@@ -74,9 +74,9 @@ textarea {
 /*GESTION DES EVENEMENTS*/
 
 .error {
-	color:red;
+	color:#dd0808;
 }
 
 .right {
-	color:blue;
+	color:#000000;
 }

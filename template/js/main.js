@@ -66,7 +66,7 @@ function verifObjet() {
 function corpsMail() {
     var restant =  400 - $message.val().length;
     
-   $('#messageLabel').html(restant+" caractère(s) restant(s)") ;
+   $('#messageLabel').html("Corps du message : " + restant + " caractère(s) restant(s)") ;
 }
 
 $('document').ready(function() {

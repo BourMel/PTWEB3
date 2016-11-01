@@ -54,7 +54,7 @@
 							<input class="contact__input" name="prenom" id="prenom" placeholder="Prénom...">
 							<label class="contact__label" for="email">Votre adresse email</label>
 							<input class="contact__input" name="email" id="email" placeholder="Email...">
-						<fieldset>
+                        </fieldset>
 						<fieldset>
 							<label class="contact__label" for="objet">Objet du message</label>
 							<input class="contact__input" name="objet" id="objet" placeholder="Objet du message...">

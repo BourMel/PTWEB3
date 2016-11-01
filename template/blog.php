@@ -30,8 +30,18 @@
 					<select id="archives">
 						<option>Janvier
 						<option>Février
+						<option>Mars
+						<option>Avril
+						<option>Mai
+						<option>Juin
+						<option>Juillet
+						<option>Août
+						<option>Septembre
+						<option>Octobre
+						<option>Novembre
+						<option>Décembre
 					</select>
-					<select>
+					<select id="dates">
 						<option>2015
 						<option>2016
 					</select>
@@ -41,7 +51,7 @@
 
 			<h1 class="deco">Blog de Nathan</h1>
 
-			<section class="row">
+			<div class="row">
 				<article class="first col col6">
 					<img src="./images/blog_merci.jpg" alt="">
 					<div class="first__description">
@@ -51,9 +61,9 @@
 						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
-			</section>
+			</div>
 
-			<section class="row">
+			<div class="row">
 				<article class="col col3">
 					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
@@ -73,9 +83,9 @@
 						<a href="article_blog.php">Lire la suite</a>
 					</div>
 				</article>
-			</section>
+			</div>
 
-			<section class="row">
+			<div class="row">
 				<article class="col col3">
 					<img src="./images/actu_orangerie.jpg" alt="">
 					<div class="description">
@@ -84,7 +94,8 @@
 						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin [...]</p>
 						<a href="article_blog.php">Lire la suite</a>
 					</div>
-				</article>
+                </article>
+				
 
 				<article class="col col3">
 					<img src="./images/actu_orangerie.jpg" alt="">
@@ -94,10 +105,10 @@
 						<p>Ils s’appellent Dione, Laurine, Naël, Nathan et Orella, des jeunes déficients visuels qui ont participé au trail du Kochersberg avec les quelques 800 coureurs qui étaient inscrits ce samedi 11 juin...</p>
 						<a href="article_blog.php">Lire la suite</a>
 					</div>
-				</article>
-			</section>
-		</main>
-	</div>
+                </article>
+            </div>
+        </main>
+    </div>
 
   		<!--Introduction footer, contenu fixe pour toutes pages. JQUERY inclus.-->
   		<?php

@@ -4,6 +4,15 @@
 	float:right;
 }
 
+/*menus déroulants*/
+#archives, #dates {
+    height:2em;
+}
+
+#archives:focus, #dates:focus {
+    color:#fe7e36;
+}
+
 /*ARTICLES*/
 
 article {

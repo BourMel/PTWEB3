@@ -7,6 +7,9 @@
 }
 
 .choixVideo h2 {
+	text-align:center;
+	background-color: rgba(255, 255, 255, 0.7);
+	line-height: 1.8;
 	transition:all 500ms;
 }
 
@@ -24,35 +27,26 @@
 	background-image:url('../images/video_nathan.jpg');
 }
 
-.categTitle {
-	text-align:center;
-	background-color: rgba(255, 255, 255, 0.7);
-	line-height: 1.8;
-}
+/*VIDEO EN LECTURE*/
 
-/*PAGE DE LECTURE DE VIDEOS*/
-
-section {
-	display:flex;
-	margin:2em 0;
-}
-
-video {/* Pour éviter qu'avec une miniautre blanche on ne voit pas la limite de la vidéo */
-	border: 2px solid #fe7e36;
-}
-
-/*vidéo en lecture*/
-.video__main__description {
-	/*pour plaquer le texte en bas de la div*/
-	align-self:flex-end;
+.section__title {
+    margin-top:1em;
 }
 
 .video__main {
+	display:flex;
 	font-size:1.2em;
+    margin-bottom:2em;
 }
 
-.video__main video {
+.video__main video {/* Pour éviter qu'avec une miniautre blanche on ne voit pas la limite de la vidéo */
+	border: 2px solid #fe7e36;
 	width:90%;
+}
+
+.video__main__description {
+	/*pour plaquer le texte en bas de la div*/
+	align-self:flex-end;
 }
 
 /*date*/
@@ -66,31 +60,60 @@ section h4 {
 	font-weight:800;
 }
 
-/*liste des vidéos*/
-.video__list { /* Fond permet de savoir où commence le slider */
+/*LISTE DES VIDEOS*/
+
+.video__list {
 	margin-top: 1em;
-	background-color: #fab38b;
 }
 
-.video__list ul {
-	display:inline-block;
-	margin:auto;
-	width:100%;
-}
-
-.video__description span,
-.video__description h4 {padding-bottom: 1em;
-}
-
+/*une miniature*/
 .carousel-cell {
 	width:200px;
 	margin:1em;
+    transition:all 500ms ease;
+}
+
+/*différents effets pour montrer que le clic est possible*/
+.carousel-cell:hover {
+    transform:scale(1.1);
+    cursor:pointer;
+}
+
+.carousel-cell:hover h4 {
+    color:#fe7e36;
 }
 
 .carousel-cell img {
 	height:140px;
 }
 
+/*date*/
+.video__description span {
+    color:#c3c6c1;
+}
+
+/*ne pas indiquer l'avancement du slider*/
 .flickity-page-dots .dot {
  	display:none;
+}
+
+/*personnalisation des boutons précédent/suivant*/
+.flickity-prev-next-button {
+    /*transparence totale*/
+    background:#fe7e36;
+    background:hsla(0, 0, 0, 0);
+}
+
+.flickity-prev-next-button:hover {
+    background:#fab38b;
+}
+
+.flickity-prev-next-button.previous {
+    /*en dehors de la bordure gauche de son parent*/
+    left:-60px;
+}
+
+.flickity-prev-next-button.next {
+    /*en dehors de la bordure droite de son parent*/
+    right:-60px;
 }

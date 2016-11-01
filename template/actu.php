@@ -41,7 +41,7 @@
 						<option>Novembre
 						<option>Décembre
 					</select>
-					<select>
+					<select id="dates">
 						<option>2015
 						<option>2016
 					</select>
@@ -51,7 +51,7 @@
 
 			<h1  class="deco">Actualités de l'association</h1>
 
-			<section class="row">
+			<div class="row">
 				<article class="first col col6">
 					<img src="./images/actu_orangerie.jpg" class="articleLink" alt="Sortie à l'Orangerie">
 					<div class="first__description">
@@ -62,9 +62,9 @@
 						<a href="article_actu.php">Lire la suite</a>
 					</div>
 				</article>
-			</section>
+			</div>
 
-			<section class="row">
+			<div class="row">
 				<article class="col col3">
 					<img src="./images/actu_juillet.jpg" alt="Rencontre de juillet ">
 					<div class="description">
@@ -73,7 +73,7 @@
 						<p>Grâce à Yves Wansi, le président de « Vue d’ensemble » qui soutient l’action de « Vue du cœur »
               et qui a accompagné le projet : toute la journée avec sa petite caméra, il [...]</p>
 						<a href="article_actu.php">Lire la suite</a>
-					</a>
+                    </div>
 				</article>
 
 				<article class="col col3">
@@ -86,9 +86,9 @@
 						<a href="article_actu.php">Lire la suite</a>
 					</div>
 				</article>
-			</section>
+			</div>
 
-			<section class="row">
+			<div class="row">
 				<article class="col col3">
 					<img src="./images/actu_course.jpg" alt="">
 					<div class="description">
@@ -110,7 +110,7 @@
 						<a href="article_actu.php">Lire la suite</a>
 					</div>
 				</article>
-			</section>
+			</div>
 		</main>
 	</div>
 
